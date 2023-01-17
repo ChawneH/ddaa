@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Bungee+Shade&family=Enriqueta&family=Oswald:wght@200;300;400&family=Rubik+Vinyl&family=Train+One&display=swap');
+* {
+    font-family: 'Handlee';
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+button{
+    cursor:pointer;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: auto;
+    background-color: black;
+}
+body a{
+    text-decoration: none;
+}
+.container99{
+    width: 99%;
+}
+.container80{
+}
+nav li{
+    display: inline-block;
+    font-size: 18px;
+    padding: 20px;
+}
+header{
+    background-color: black;
+    padding: 0px 100px;
+    min-height: 13rem;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 12rem;
+}
+nav{
+    /* background-color: rgb(240, 0, 0); */
+    width: max-content;
+    margin-top: 4rem;
+    /* position: fixed; */
+}
+nav a{
+    color: white;
+}
+nav .current a{
+    color: #A266E3;
+}
+nav a:hover {
+    color: #A266E3;
+    transition: ease-out 0.1s;
+}
+span.social-list{
+    transform: translate(-5rem, 10rem);
+}
+#one{
+    padding: 50px;
+}
+button#quote{
+    transform: translateY(75px);
+    background-color: white;
+    font-size: 18px;
+    padding: 8px 18px;
+    border-radius: 0;
+}
+button#quote1{
+    background-color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 0;
+}
+button#quote:hover{
+    color: white;
+    background-color: black;
+    transition: ease-out 0.1s;
+}
+section#one{
+    background: url(../img/digitaldreams.PNG) no-repeat center top;
+    background-size: cover;
+    color: white;
+    min-height: 30rem;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.headline{
+    background-color: rgba(0, 0, 0, 0.68);
+}
+#intro{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+section#one h1{
+    font-size: 50px;
+    font-family: 'Train One', cursive;
+    text-transform: uppercase;
+}
+section#one h4{
+    font-size: 43px;
+    font-family: 'Oswald', sans-serif;
+}
+section#one ul{
+    background-color: #a266e3ab;
+    padding: 0px 5px;
+    margin: auto;
+    font-family: 'Bree Serif', serif;
+    text-align: left;
+}
+section#one ul li{
+    padding: 15px 0px;
+    list-style: none;
+    font-size: 18px;
+    font-family: 'Enriqueta', serif;
+}
+section#two, section#seven{
+    text-align: center;
+    padding: 5rem;
+    background-color: white;
+}
+section#two h1, section#four h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+section#two ul li{
+padding: 15px 0px;
+    list-style: none;
+    font-size: 18px;
+    font-family: 'Enriqueta', serif;
+}
+button#learn{
+    background-color:#A266E3;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 0;
+    transform: translate(0rem, 1rem);
+}
+button#learn:hover{
+    color: white;
+    background-color: black;
+    transition: ease-out 0.1s;
+}
+section#three ul, section#eight ul{
+    display: flex;
+    width: 100%;
+}
+section#three ul li a:hover{
+    transform: translateX(20px);
+    transition: ease-in-out 0.3s;
+
+}
+section#three ul li{
+    width: 33.33%;
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box-1, .box-1 a, .box-3, .box-3 a{
+    background-color: #484848;
+    color: #CECECE;
+}
+.box-2, .box-2 a{
+    background-color: white;
+}
+section#three ul li h2{
+    font-family: 'Train One', cursive;
+}
+section#three ul li p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+section#four{
+    text-align: center;
+    background-color: white;
+    padding: 100px 0px;
+}
+section#four button{
+    transform: translateY(30px);
+}
+section#four hr{
+    width: 30%;
+    margin: 20px 450px;
+    background-color: black;
+}
+section#four p{
+    font-size: 18px;
+    font-family: 'Enriqueta', serif;
+}
+section#five{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 30px 100px;
+    text-align: center;
+}
+section#five ul{
+    width: 50%;
+}
+section#five li{
+    display: block;
+    font-family: 'Enriqueta', serif;
+    padding: 5px;
+}
+section#five ul h4{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+section#six{
+    color: white;
+    padding: 100px;
+    text-align: center;
+}
+section#six p{
+    font-size: 35px;
+    font-family: monospace;
+    font-weight: lighter;
+}
+section#eight{
+    color: white;
+    text-align: center;
+}
+section#three ul li{
+    width: 50%;
+    display: flex;
+    padding: 30px;
+    text-align: center;
+}
+section#seven{
+    background-color: white;
+    padding: 100px 0px;
+}
+section#seven h1{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+section#seven ul{
+    padding: 20px;
+    margin: 0px 300px;
+}
+section#seven ul li{
+    padding: 10px;
+    text-align: left;
+    list-style: none;
+    font-size: 24px;
+    font-family: 'Enriqueta', serif;
+}
+section#seven p{
+    font-size: 24px;
+    font-family: 'Enriqueta', serif;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+}
+/*****Grid CSS*****/
+.grid-container{
+    display: grid;
+    grid-template: 
+   "project1 project1 project2 project2" 
+   "project3 project3 project4 project4" 
+}
+.grid-item{
+    padding: 150px;
+    background-color: #000000;
+    border: black solid 1px;
+}
+.grid-item h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+.grid-item p{
+    font-family: 'Enriqueta', serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+ .item-1{
+     
+     grid-area: project1;
+
+}
+.item-2{
+    grid-area: project2;
+    background: url(../img/orion-nebula-gc393c1740_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+
+}
+.item-3{
+    grid-area: project3;
+    background: url(../img/stars-g8b2b80edf_1920.jpg);
+    background-color: #00000016;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+}
+.item-4{
+    grid-area: project4;
+}
+
+footer{
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+@media (max-width: 880px) {
+    .grid-container{
+        display: grid;
+        grid-template: 
+       "project1 project1"
+       "project2 project2" 
+       "project3 project3" 
+       "project4 project4" 
+    }
+    .item-2, .item-3{
+        display: none;
+    }
+}
