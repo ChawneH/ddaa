@@ -13,66 +13,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header>
-        <a href="./index.html"><img src="../img/IMG_1467.JPG" alt="Digital Dreams"></a>
-        <nav>
-            <ul>
-                <li class="current"><a href="./index.html">Home</a></li>
-                <li><a href="./index copy.php">The Dream</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li class="dropdown"><a href="./services.html" class="dropbtn">Services</a>
-                    <ul class="dropdown-content">
-                        <li><a href="">Graphic & Media Solutions</a></li>
-                        <li><a href="">Marketing Solutions</a></li>
-                        <li><a href="">Web Solutions</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown"><a href="./contact.html" class="dropbtn">Contact</a>
-                    <ul class="dropdown-content">
-                        <li><a href="">Graphic & Media Solutions</a></li>
-                        <li><a href="">Marketing Solutions</a></li>
-                        <li><a href="">Web Solutions</a></li>
-                    </ul>                
-                </li>
-            </ul>
-        </nav>
-        <button onclick="toggle()" id="tb" class="toggle-button">
-            <a href="javascript:void(0)">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-            </a>
-          </button>
-          <ul id="mobile" class="mobile-menu">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <li class="current"><a href="./index.html">Home</a></li>
-            <li><a href="./the_dream.html">The Dream</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li class="dropdown"><a href="./services.html" class="dropbtn">Services</a>
-                <ul class="dropdown-content">
-                    <li><a href="">Graphic & Media Solutions</a></li>
-                    <li><a href="">Marketing Solutions</a></li>
-                    <li><a href="">Web Solutions</a></li>
-                </ul>
-            </li>
-            <li class="dropdown"><a href="./contact.html" class="dropbtn">Contact</a>
-                <ul class="dropdown-content">
-                    <li><a href="">Graphic & Media Solutions</a></li>
-                    <li><a href="">Marketing Solutions</a></li>
-                    <li><a href="">Web Solutions</a></li>
-                </ul>                
-            </li>
-            <a href="" alt="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-        </ul>
-        <a href="#">
-            <button id="quote">
-                Get A Free Quote
-            </button>
-        </a>
-    </header>
+    <?php require("template.php"); ?>
     <span class="social-list">
         <a href="" alt="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
         <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -178,9 +119,7 @@
             <a href=""><li>digitaldreamsaa@gmail.com</li></a>
         </ul>
     </section>
-    <footer>
-        <p>&copy;2022 by Digital Dreams Advertising Agency LLC.</p>
-    </footer>
+    
 </body>
 <script src="../js/custom.js"></script>
 </html>
